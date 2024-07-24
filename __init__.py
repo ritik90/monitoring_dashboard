@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-# import model_monitoring_app, system_monitoring_app, business_monitoring_app
 import pandas as pd
 from datetime import datetime, timedelta
 import plotly.graph_objects as go
@@ -41,9 +40,6 @@ def run_all():
                 """,
                 unsafe_allow_html=True
             )
-
-            # Add your custom logo with the absolute path
-            # st.sidebar.image("/Users/ritik.saxena/Documents/image.jpg")
 
             st.sidebar.header("Monitoring Dashboard")
             app_selection = st.sidebar.selectbox(
