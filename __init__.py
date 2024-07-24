@@ -43,7 +43,7 @@ def run_all():
             )
 
             # Add your custom logo with the absolute path
-            st.sidebar.image("/Users/ritik.saxena/Documents/image.jpg")
+            # st.sidebar.image("/Users/ritik.saxena/Documents/image.jpg")
 
             st.sidebar.header("Monitoring Dashboard")
             app_selection = st.sidebar.selectbox(
